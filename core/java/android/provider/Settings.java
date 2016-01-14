@@ -6502,6 +6502,18 @@ public final class Settings {
         public static final String NOTIFICATION_SOUND_VIB_SCREEN_ON = "notification_sound_vib_screen_on";
 
         /**
+         * Whether to vibrate on succesful fingerprint authentication
+         * @hide
+         */
+        public static final String FP_SUCCESS_VIBRATE = "fp_success_vibrate";
+
+        /**
+         * Whether to vibrate on unsuccesful fingerprint authentication
+         * @hide
+         */
+        public static final String FP_ERROR_VIBRATE = "fp_error_vibrate";
+
+        /**
          * Whether to show advanced reboot options in power menu
          * @hide
          */
