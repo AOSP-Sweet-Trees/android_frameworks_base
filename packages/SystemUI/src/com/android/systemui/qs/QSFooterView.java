@@ -292,7 +292,6 @@ public class QSFooterView extends FrameLayout {
         if (mFooterAnimator != null) {
             mFooterAnimator.setPosition(headerExpansionFraction);
         }
-
         if (mUsageText == null || mHideDataUsage) return;
         if (headerExpansionFraction == 1.0f) {
             postDelayed(() -> mUsageText.setSelected(true), 1000);
